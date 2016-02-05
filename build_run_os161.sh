@@ -55,6 +55,7 @@ if [[ $@ == *b* ]] then
         target=$target-OPT
     fi
     build ${target}
+    sleep 1
 fi
 
 cd ~/os161/root
